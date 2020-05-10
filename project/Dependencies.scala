@@ -3,7 +3,7 @@ import sbt._
 object Dependencies {
 
   val catsCore = "org.typelevel" %% "cats-core" % "2.1.1"
-  val scalaTest = "org.scalatest" %% "scalatest" % "3.1.1"
+  val scalaTest = "org.scalatest" %% "scalatest" % "3.1.2"
   
   object CompilerPlugins {
     val kindProjector =
