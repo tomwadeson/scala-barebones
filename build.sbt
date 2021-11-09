@@ -11,6 +11,6 @@ lazy val root = (project in file("."))
     name := "scala-barebones",
     libraryDependencies ++= Seq(
       catsCore,
-      scalaTest % Test
+      munit
     )
   )
