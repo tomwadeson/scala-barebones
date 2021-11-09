@@ -8,7 +8,7 @@ object Dependencies {
   object CompilerPlugins {
 
     val kindProjector =
-      compilerPlugin("org.typelevel" %% "kind-projector" % "0.10.3")
+      compilerPlugin("org.typelevel" % "kind-projector" % "0.13.2" cross CrossVersion.full)
 
     val betterMonadicFor =
       compilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1")
