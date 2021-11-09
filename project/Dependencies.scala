@@ -2,8 +2,8 @@ import sbt._
 
 object Dependencies {
 
-  val catsCore = "org.typelevel" %% "cats-core" % "2.1.1"
-  val scalaTest = "org.scalatest" %% "scalatest" % "3.1.1"
+  val catsCore = "org.typelevel" %% "cats-core" % "2.6.1"
+  val scalaTest = "org.scalatest" %% "scalatest" % "3.1.4"
   
   object CompilerPlugins {
     val kindProjector =
@@ -13,7 +13,7 @@ object Dependencies {
       compilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1")
 
     val silencer = {
-      val version = "1.4.1"
+      val version = "1.4.2"
       Seq(
         compilerPlugin("com.github.ghik" %% "silencer-plugin" % version),
         "com.github.ghik" %% "silencer-lib" % version % Provided
