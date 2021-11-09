@@ -13,7 +13,7 @@ object Dependencies {
       compilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1")
 
     val silencer = {
-      val version = "1.4.1"
+      val version = "1.4.2"
       Seq(
         compilerPlugin("com.github.ghik" %% "silencer-plugin" % version),
         "com.github.ghik" %% "silencer-lib" % version % Provided
