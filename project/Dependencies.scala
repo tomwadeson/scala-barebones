@@ -2,7 +2,7 @@ import sbt._
 
 object Dependencies {
 
-  val catsCore = "org.typelevel" %% "cats-core" % "2.1.1"
+  val catsCore = "org.typelevel" %% "cats-core" % "2.6.1"
   val scalaTest = "org.scalatest" %% "scalatest" % "3.1.4"
   
   object CompilerPlugins {
