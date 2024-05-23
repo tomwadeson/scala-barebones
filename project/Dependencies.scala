@@ -3,7 +3,7 @@ import sbt._
 object Dependencies {
 
   val catsCore = "org.typelevel" %% "cats-core" % "2.6.1"
-  val munit = "org.scalameta" %% "munit" % "0.7.29" % Test
+  val munit = "org.scalameta" %% "munit" % "1.0.0" % Test
 
   object CompilerPlugins {
 
